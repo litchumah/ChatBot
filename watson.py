@@ -17,7 +17,3 @@ class Watson:
             context = context
         ).get_result()
         return content
-
-
-    #print(len(response['context']))
-    #print(json.dumps(response['intents'][0]['intent']))
